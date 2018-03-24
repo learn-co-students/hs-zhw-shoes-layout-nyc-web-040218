@@ -24,4 +24,40 @@
 
 /* Posititoning Classes */
 
+.col-3 {
+  background: #fff;
+}
 
+.col-2 {
+  float: left;
+  width: 66%;
+  height: 596px;
+  margin-right: 2%;
+  background: #fff;
+}
+
+.col-1 {
+  float: right;
+  width: 32%;
+  background: #fff;
+}
+
+.bot {
+  float: left;
+  width: 32%;
+  margin-top: 2%;
+  margin-right: 2%;
+  background: #fff;
+}
+
+/*[class*="col-"] {*/
+/*  margin-left: 2%;*/
+/*}*/
+
+.right-most {
+  margin-right: 0%;
+}
+
+#details div {
+  background: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%);
+}
