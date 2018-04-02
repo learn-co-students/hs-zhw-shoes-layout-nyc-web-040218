@@ -23,5 +23,80 @@
 }
 
 /* Posititoning Classes */
+.wood {
+  margin: 0 auto;
+}
+
+.sale {
+  margin-bottom: 2%;
+}
+
+.wrapper{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.calendar {
+  float:left;
+  width: 32%;
+  margin-left: 2%;
+  height: 630px;
+  margin-bottom: 2%;
+}
+
+.featured {
+  float: left;
+  width: 66%;
+  height: 630px;
+  margin-bottom: 2%;
+}
+
+.deals1 {
+  float: left;
+  width: 32%;
+
+}
+
+.deals2 {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+
+}
+
+.deals3 {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+
+}
+
+#details .wrapper .border_right1 {
+  display: block;
+  float: left;
+    width: 32%;
+}
+
+#details .wrapper .border_right2 {
+  display:  block;
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+}
+
+#details .wrapper .social {
+  display:  block;
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+}
 
 
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility:  hidden;
+  height: 0;
+  line-height: 0;
+}
